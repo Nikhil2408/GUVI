@@ -1,3 +1,3 @@
 # Count the number of digits in a given number
-n = input()
-print(len(n))
+n = int(input().strip())
+print(len(str(n)))
